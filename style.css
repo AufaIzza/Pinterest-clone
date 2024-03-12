@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(144, 144, 144);
+}
+#container-login {
+    width: 484px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    min-height: initial;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 2px 10px;
+    border-radius: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container-login-inside-upper {
+    min-height: 400px;
+    padding: 20px 10px 24px;
+}
+
+#container-login-inside-upper > i {
+    margin: 8px auto 6px;
+    height: 45px;
+    width: 45px;
+}
+#container-login-inside-upper > h1 {
+    font-size: 32px;
+    margin: 0 auto 6px;
+}
+
+#container-login-inside-upper > p {
+    font-size: 16px;
+    margin: 0 auto 20px;
+}
+
+#container-login-inside-upper-form {
+    text-align: center;
+    margin: auto;
+    width: 268px;
+}
+
+.container-login-inside-upper-form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}
+
+.container-login-inside-upper-form-input > label {
+    text-align: left;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #111111;
+}
+
+.container-login-inside-upper-form-input > input {
+    text-align: left;
+    width: 232px;
+    height: 21px;
+    font-size: 16px;
+    border-radius: 16px;
+    padding: 12px 16px;
+    border-style: solid;
+    border-color: #cdcdcd;
+    color: #111111;
+}
+
+.container-login-inside-upper-form-button {
+    border: 0px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px 18px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#container-login-inside-upper-form-button-continue {
+    background-color: #e60023;
+}
