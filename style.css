@@ -37,7 +37,18 @@ body {
 #container-login-inside-upper-form {
     text-align: center;
     margin: auto;
+    margin-bottom: 12px;
     width: 268px;
+}
+
+#container-login-inside-upper-form > p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
 }
 
 .container-login-inside-upper-form-input {
@@ -85,6 +96,18 @@ body {
 
 #container-login-inside-upper-form-button-continue {
     background-color: #e60023;
+}
+
+#container-login-inside-upper-form-button-facebook {
+    background-color: rgb(24, 119, 242);
+}
+
+#container-login-inside-upper-form-button-google {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 64, 67);
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(218, 220, 224);
 }
 
 *{
