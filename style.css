@@ -24,9 +24,12 @@ body {
     height: 45px;
     width: 45px;
 }
-#container-login-inside-upper > h1 {
+
+.container-login-inside-upper-big-font {
     font-size: 32px;
     margin: 0 auto 6px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
 }
 
 #container-login-inside-upper > p {
@@ -108,6 +111,39 @@ body {
     border: 2px;
     border-style: solid;
     border-color: rgb(218, 220, 224);
+}
+
+#container-login-inside-upper h6 {
+    -webkit-font-smoothing: antialiased;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(118, 118, 118);
+}
+
+#container-login-inside-upper a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+}
+
+#container-login-inside-lower {
+    padding-top: 31px;
+    height: 62px;
+    background-color: #e9e9e9;
+    text-align: center;
+    border-radius: 0px 0px 32px 32px;
+    color: rgb(60, 64, 67);
+
+}
+
+#container-login-inside-lower-text {
+
+    height: 62px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
 *{
