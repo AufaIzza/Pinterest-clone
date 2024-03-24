@@ -741,16 +741,24 @@
      font-size: 1.5em;
  }
  
- .container-text-s1>a {
+ .container-text-s1>div {
+     margin-top: 24px;
      text-decoration: none;
      background-color: #E60023;
      padding: 12px 16px;
      color: #fff;
      border-radius: 30px;
      font-weight: 600;
+     margin-left: auto;
+     margin-right: auto;
+     width: 85px;
+ }
+
+ .container-text-s1 > div > a {
+  color: #fff;
  }
  
- .container-text-s1>a:hover {
+ .container-text-s1>div:hover {
      background-color: #B60000;
  }
  /* text section1 END*/
