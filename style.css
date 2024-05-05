@@ -365,7 +365,7 @@ button:hover {
   height: 160px;
   width: auto;
 }
-.top-border {
+.top-border-sec2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -374,7 +374,7 @@ button:hover {
   background-color: #fffd92;
   z-index: 2;
 }
-.bottom-border {
+.bottom-border-sec2 {
   position: absolute;
   bottom: 0;
   left: 0;
